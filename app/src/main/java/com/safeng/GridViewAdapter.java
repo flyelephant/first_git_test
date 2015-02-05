@@ -37,6 +37,7 @@ public class GridViewAdapter extends BaseAdapter{
         if (mList == null) {
             return null;
         } else {
+            System.out.println("world");
             return this.mList.get(position);
         }
     }
