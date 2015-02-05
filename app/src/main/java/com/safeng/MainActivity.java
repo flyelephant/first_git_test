@@ -32,6 +32,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         init();
+//add git test
+        //add git second
     }
     private void init(){
         mListView=(ListView) findViewById(R.id.listView);
