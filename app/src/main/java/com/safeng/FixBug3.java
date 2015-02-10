@@ -8,4 +8,9 @@ public class FixBug3 {
     public String toString() {
         return super.toString();
     }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
